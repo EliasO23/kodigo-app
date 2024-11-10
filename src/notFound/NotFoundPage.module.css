@@ -1,0 +1,22 @@
+/* NotFoundPage.css */
+
+.notFoundContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    text-align: center;
+  }
+  
+  .notFoundImage {
+    width: 20vw; 
+    margin-bottom: 20px;
+  }
+  
+  .notFoundText {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #333;
+  }
+  
