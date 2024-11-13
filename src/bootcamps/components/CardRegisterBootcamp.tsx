@@ -1,7 +1,10 @@
 import { Link } from 'react-router-dom'
 import styles from './CardRegisterBootcamp.module.css'
 
+
+
 function CardRegisterBootCamp({ name, description, startDate, registrationDeadline, duration, mode, technologies }) {
+    
     return (
         <div className={styles.card}>
             <div className={styles.header}>
@@ -27,9 +30,10 @@ function CardRegisterBootCamp({ name, description, startDate, registrationDeadli
                     </div>
                 </div>
             </div>
-            <Link to="/bootcamps/register" >
+            
+            <Link to={`/bootcamps/register?name=${name}`}>
                 <button className={styles.button}>Inscríbete</button>
-            </Link>
+            </Link>``
             
         </div>
     )
