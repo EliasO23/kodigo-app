@@ -1,3 +1,7 @@
+.text{
+  margin: 6rem 0 2rem 3rem;
+}
+
 .container {
     display: flex;
     gap: 20px;
@@ -5,10 +9,6 @@
     justify-content: center;
     padding: 20px;
   }
-
-.text{
-  margin: 2rem 0 2rem 3rem;
-}
 
 .text h4{
   font-size: 1.2rem;

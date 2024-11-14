@@ -33,7 +33,7 @@ const RegisterBootcampPage = () => {
         confirmButtonText: 'OK'
       }).then(() => {
         // Redirige después de que el usuario cierre la alerta
-        navigate('/');
+        navigate('/bootcamps');
       });
       reset() // Resetea el formulario después de inscribirse
 
@@ -78,7 +78,7 @@ const RegisterBootcampPage = () => {
 
           <input
             type="email"
-            placeholder="correo electrónico"
+            placeholder="Correo electrónico"
             {...register("email", {
               required: true,
               pattern: {
