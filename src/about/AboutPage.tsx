@@ -13,7 +13,7 @@ function AboutPage() {
           <h3>con nosotros</h3>
           <p>Kodigo es una academia de tecnología creativa que capacita a nuevos talentos con habilidades tech, de acuerdo a las actuales exigencias de la industria Tech y la demanda de profesionales a nivel nacional y regional</p>
           <p>Nuestros bootcamps están diseñados para que te incorpores a un trabajo en corto plazo.</p>
-          <Link to={'/login'}> <button>Aplica</button> </Link>
+          <Link to={'/login'}> <button>Aplica ya!</button> </Link>
 
         </div>
     </>
