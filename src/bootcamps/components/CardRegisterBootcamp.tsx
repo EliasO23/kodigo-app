@@ -32,7 +32,10 @@ function CardRegisterBootCamp({ name, description, startDate, registrationDeadli
             </div>
             
             <Link to={`/bootcamps/register?name=${name}`}>
-                <button className={styles.button}>Inscríbete</button>
+                <button className={`${styles.button} ${styles.firstButton}`}>Inscríbete</button>
+            </Link>
+            <Link to={`/bootcamps/listUsers/${name}`}>
+                <button className={`${styles.button} ${styles.secondButton}`}>Inscritos</button>
             </Link>
             
         </div>

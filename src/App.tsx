@@ -7,6 +7,7 @@ import { AuthProvider } from "./context/AuthProvider"
 import PrivateRoutes from "./shared/privateRoutes/PrivateRoutes"
 import RegisterBootcampPage from "./bootcamps/register/RegisterBootcampPage"
 import AboutPage from "./about/AboutPage"
+import ListUsersBootcampPage from "./bootcamps/listsUsers/ListUsersBootcampPage"
 
 
 const App = () => {
@@ -31,6 +32,10 @@ const App = () => {
         {
           path:'register',
           element:<RegisterBootcampPage/>
+        },
+        {
+          path:'listUsers/:name',
+          element:<ListUsersBootcampPage/>
         }
       ]
     },

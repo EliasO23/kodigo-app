@@ -1,0 +1,85 @@
+.container {
+    padding: 20px;
+    margin-top: 5rem;
+}
+
+.container h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.container p{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.table th,
+.table td {
+    padding: 12px 15px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.table th {
+    background-color: #345dce;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.table tr:nth-child(even) {
+    background-color: #dbeafe;
+}
+
+.table tr:nth-child(odd) {
+    background-color: #f0f9ff;
+}
+
+.table tr:hover {
+    background-color: #93c5fd;
+    transition: background-color 0.3s;
+}
+
+.table td {
+    font-size: 0.95rem;
+    color: #1e40af;
+}
+
+.table caption {
+    caption-side: top;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #2563eb;
+}
+
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.back {
+    background-color: #1e40af;  
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 400;
+}

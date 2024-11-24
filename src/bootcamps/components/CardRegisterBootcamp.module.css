@@ -1,5 +1,9 @@
 /* BootcampCard.module.css */
 .card {
+  display: flex;
+  flex-direction: column;
+  align-items: cender;
+  justify-content: space-between;
   background: linear-gradient(180deg, #ffffff 0%, #e3e3ff 100%);
   border-radius: 20px;
   padding: 20px;
@@ -27,6 +31,7 @@
 
 .details {
   margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .details p {
@@ -62,19 +67,30 @@
 }
 
 .button {
-  background-color: #6200ea;
   color: #fff;
   border: none;
   border-radius: 10px;
   padding: 10px 20px;
   cursor: pointer;
-  margin-top: 2rem;
+  margin-top: .5rem;
   font-size: 16px;
   width: 100%;
 }
 
-.button:hover {
+.firstButton{
+  background-color: #6200ea;
+}
+
+.secondButton{
+  background-color: #26bfd0;
+}
+
+.firstButton:hover {
   background-color: #4500a8;
+}
+
+.secondButton:hover{
+  background-color: #2d99a5;
 }
 
 @media (max-width: 768px) {
