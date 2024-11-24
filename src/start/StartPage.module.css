@@ -1,6 +1,13 @@
-.login{
+.text{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    color: white;
+    margin-top: 7rem;
+    font-size: 2rem;
+}
+
+.text h5{
+    color: rgba(255, 255, 255, 0.8);
 }

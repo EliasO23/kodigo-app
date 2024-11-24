@@ -3,26 +3,27 @@
 }
 
 .content h2{
-    font-size: 2.5rem;
-    font-weight: 400;
+    font-size: 3.5rem;
+    font-weight: 500;
 
 }
 
 .content h1{
-    font-size: 4rem;
+    font-size: 5rem;
     font-weight: 900;
+    color: rgba(255, 255, 255, 0.8);
 
 }
 
 .content h3{
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
 
 }
 
 .content p{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     line-height: 1.5;
     margin-bottom: .5rem;
 
@@ -30,7 +31,7 @@
 
 .content button{
     margin-top: 2rem;
-    background-color: #b269f7;
+    background-color: #d13bfe;
     font-size: 1.2rem;
     padding: 1rem 2rem;
     border: none;
@@ -38,4 +39,5 @@
     color: rgb(253, 253, 253);
     font-weight: 700;
     cursor: pointer;
+    margin-bottom: 4rem;
 }

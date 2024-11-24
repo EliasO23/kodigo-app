@@ -1,78 +1,90 @@
 /* BootcampCard.module.css */
 .card {
-    background: linear-gradient(180deg, #ffffff 0%, #e3e3ff 100%);
-    border-radius: 20px;
-    padding: 20px;
-    width: 30vw;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    color: #333;
-  }
-  
-  .header {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
+  background: linear-gradient(180deg, #ffffff 0%, #e3e3ff 100%);
+  border-radius: 20px;
+  padding: 20px;
+  width: 30vw;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
 
-  .description {
-    margin: 20px 0;
-    font-size: 1rem;
-    font-weight: 300;
-  }
-  
-  .logo {
-    height: 40px;
-    width: 40px;
-  }
-  
-  .details {
-    margin-top: 20px;
-  }
-  
-  .details p {
-    font-size: 16px;
-    margin: 15px 0;
-    font-weight: 300;
-  }
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 
-  .details p span{
-    font-weight: 600;
-  }
+.description {
+  margin: 20px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
 
-  .technologies {
-    margin-top: 30px;
-    font-size: 16px;
-    font-weight: 600;
+.logo {
+  height: 40px;
+  width: 40px;
+}
+
+.details {
+  margin-top: 20px;
+}
+
+.details p {
+  font-size: 16px;
+  margin: 15px 0;
+  font-weight: 300;
+}
+
+.details p span {
+  font-weight: 600;
+}
+
+.technologies {
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.techChips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.techChip {
+  background-color: #349faf;
+  /* Color de fondo predeterminado */
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 14px;
+}
+
+.button {
+  background-color: #6200ea;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 2rem;
+  font-size: 16px;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #4500a8;
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex: 1 1 calc(50% - 16px);
   }
-  
-  .techChips {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
-    margin-top: 5px;
+}
+
+@media (max-width: 480px) {
+  .card {
+    flex: 1 1 100%;
   }
-  
-  .techChip {
-    background-color: #349faf; /* Color de fondo predeterminado */
-    color: #fff;
-    padding: 5px 10px;
-    border-radius: 15px;
-    font-size: 14px;
-  }  
-  
-  .button {
-    background-color: #6200ea;
-    color: #fff;
-    border: none;
-    border-radius: 10px;
-    padding: 10px 20px;
-    cursor: pointer;
-    margin-top: 20px;
-    font-size: 16px;
-    width: 100%;
-  }
-  
-  .button:hover {
-    background-color: #4500a8;
-  }
-  
+}

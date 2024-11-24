@@ -1,19 +1,33 @@
 .content{
     margin-top: 10rem;
     margin-left: 3rem;
+    animation: fadeInUp 1.5s ease-out;
 }
 
 .content h3{
-    font-size: 2.5rem;
-    margin-bottom: .5rem;
-    font-weight: 500;
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-bottom: 1.5rem;
+    line-height: 1;
 }
 
-.content h1{
-    font-size: 4rem;
-    margin-bottom: .5rem;
+.content h3 strong{
+    font-size: 4.5rem;
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .content p{
     font-size: 1.5rem;
+    font-weight: 500;
 }
+
+@keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(50px); /* Inicia desde abajo */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); /* Se posiciona en su lugar final */
+    }
+  }

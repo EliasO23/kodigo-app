@@ -13,7 +13,8 @@ body{
   background-size: cover;
   background-position: center;
   background-repeat: repeat; */
-  background: rgb(63,94,251);
-  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
-  color: rgb(241, 235, 235);
+  /* background: rgb(63,94,251); */
+  background: linear-gradient(90deg, rgb(70, 101, 255) 10%, rgb(171, 75, 255) 70%);
+  
+  color: white;
 }

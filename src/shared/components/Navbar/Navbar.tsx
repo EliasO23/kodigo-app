@@ -17,7 +17,7 @@ function Navbar() {
     <nav className={styles.navbar}>
       <div className={styles.logo}>
         <Link to='/'> 
-          <img src="https://cdn-knihf.nitrocdn.com/ibKONdxVNJApfXYlVVFSuGXgWUgPJrvN/assets/images/optimized/rev-ccacd93/kodigowebstorage.blob.core.windows.net/kodigowebsite/2023/11/logo-1.webp" alt="Logo" className={styles.logoImage} />
+          <img src="https://cdn-knihf.nitrocdn.com/ibKONdxVNJApfXYlVVFSuGXgWUgPJrvN/assets/images/optimized/rev-f36b800/kodigowebstorage.blob.core.windows.net/kodigowebsite/2023/11/logo-1.webp" alt="Logo" className={styles.logoImage} />
         </Link>
       </div>
       <div className={styles.navLinks}>

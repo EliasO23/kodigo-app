@@ -4,12 +4,10 @@
     align-items: center;
     justify-content: space-between;
     padding: .8rem 3rem;
-    background: linear-gradient(90deg, rgba(131, 2, 201, 0.8) 50%, rgba(248, 49, 148, 0.8) 80%, rgba(253, 119, 47, 0.8)90%);
-    color: #fff;
+    color: white;
     width: 100%;
     top: 0;
-    background: rgb(63,94,251);
-background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 10%, rgba(252,70,107,1) 100%);
 }
 
 

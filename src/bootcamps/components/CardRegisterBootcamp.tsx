@@ -9,7 +9,7 @@ function CardRegisterBootCamp({ name, description, startDate, registrationDeadli
         <div className={styles.card}>
             <div className={styles.header}>
                 <img
-                    src="https://cdn-knihf.nitrocdn.com/ibKONdxVNJApfXYlVVFSuGXgWUgPJrvN/assets/images/optimized/rev-ccacd93/kodigowebstorage.blob.core.windows.net/kodigowebsite/2023/11/Java-Developer@4x-1.webp"
+                    src="https://cdn-knihf.nitrocdn.com/ibKONdxVNJApfXYlVVFSuGXgWUgPJrvN/assets/images/optimized/rev-f36b800/kodigowebstorage.blob.core.windows.net/kodigowebsite/2023/11/Java-Developer@4x-1.webp"
                     alt="Logo"
                     className={styles.logo}
                 />
@@ -33,7 +33,7 @@ function CardRegisterBootCamp({ name, description, startDate, registrationDeadli
             
             <Link to={`/bootcamps/register?name=${name}`}>
                 <button className={styles.button}>Inscríbete</button>
-            </Link>``
+            </Link>
             
         </div>
     )

@@ -6,8 +6,8 @@ const HomePage = () => {
     <>
         <Navbar/>
         <div className={styles.content}>
-          <h3>Transforma tu pasion</h3>
-          <h1>en tu profesion</h1>
+          <h3>Transforma tu pasion <strong><br/>en tu profesion</strong></h3>
+
           <p>Estudia una carrera tecnológica y descubre tu potencial para rekodificar el futuro</p>
         </div>
         

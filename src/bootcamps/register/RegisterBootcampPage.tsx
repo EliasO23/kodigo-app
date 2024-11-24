@@ -55,6 +55,7 @@ const RegisterBootcampPage = () => {
       <section className={styles.comment}>
         <h1>Inscríbete a nuestro bootcamp</h1>
         <form onSubmit={handleSubmit(onSubmit)}>
+          <label>Bootcamp:</label>
           <input
             type="text"
             defaultValue={bootcamp}
@@ -63,9 +64,10 @@ const RegisterBootcampPage = () => {
           />
           {errors.bootcamp && <span>Debe de seleccionar un bootcamp</span>}
 
+          <label>Nombre de usuario:</label>
           <input
             type="text"
-            placeholder="Nombre completo"
+            placeholder="Ingrese su nombre completo"
             {...register("fullname", {
               required: true,
               minLength: 3,
@@ -76,9 +78,10 @@ const RegisterBootcampPage = () => {
           {errors.fullname?.type === "minLength" && <span>Minimo de caracteres es de 3</span>}
           {errors.fullname?.type === "maxLength" && <span>Maximo de caracteres es de 75</span>}
 
+          <label>Email:</label>
           <input
             type="email"
-            placeholder="Correo electrónico"
+            placeholder="Ingrese un correo electrónico"
             {...register("email", {
               required: true,
               pattern: {
@@ -90,9 +93,10 @@ const RegisterBootcampPage = () => {
           {errors.email?.type === "required" && <span>El correo es requerido</span>}
           {errors.email?.type === "pattern" && <span>Email inválido</span>}
 
+          <label>Telefono:</label>
           <input
             type="text"
-            placeholder="Telefono"
+            placeholder="Ingrese su numero de telefono"
             {...register("cellphone", {
               required: true,
               pattern: /^[0-9]{8}$/,
